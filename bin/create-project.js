@@ -36,7 +36,6 @@ if (!projectName) {
   createFile('.babelrc');
   createFile('.eslintrc.js');
   createFile('webpack.config.js');
-  createFile('.gitignore');
 
   fs.mkdirSync(path.resolve(projectDir, 'src'));
   createFile('src/index.js');
